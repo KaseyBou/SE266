@@ -21,7 +21,7 @@
             margin-left: 50px;
         }
         
-    </style>
+    </style>`
      <form name="test" method="post">
          <!--Here I have my form-->
          <h3>Amount owed <input type="text" name="amountOwed" id="txtInput1" value=""> </h3>
@@ -40,7 +40,7 @@
             </tr>
        
         <?php
-            $month = 1;
+            
             if (isset($_POST ['amountOwed'])) {
                
                 
@@ -59,7 +59,7 @@
                 $currentAmountOwed = $currentAmountOwed + $interestPaid - $monthlyPayment;
                               
                 //enter a while loop
-                
+                $month = 1;
                 while($currentAmountOwed > 0) {
                     echo "<tr><td>$month</td><td>$interestPaid</td><td>$currentAmountOwed</td>";
                     
@@ -68,21 +68,27 @@
                     
                     $month++;
                 }
+                
+               
                 $str = "</table>";
                
-                $total = $initialAmountOwed - $interestPaid;
+                
                 
                 $str = "<br />";
-                echo "total amount spent over $month months is $total ";
+                $i=1;
+               
+                 while($i < $month) {
+                 $i++;
+                 $total = $totalAmountOwed + $interestPaid;
+                }
+                
+                 echo "total amount spent over $month months is $total ";
+                
                 $str = "<br />";
                 
             } else {
                 echo "<br>" . "Welcome! click the button to see the damage";
             }
-
-            
-            
-        
       
 ?>    
            

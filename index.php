@@ -36,11 +36,11 @@
                              <tbody>
                                 <tr>
                                      <td>Solution Week 1</td>
-                                     <td><a href="#">zip file week 1</a></td>
+                                     <td><a href="week1.zip" target="_blank">zip file week 1</a></td>
                                 </tr>
                                  <tr>
                                      <td>Solution Week 2</td>
-                                     <td><a href="#">zip file week 2</a></td>
+                                     <td><a href="week2.zip">zip file week 2</a></td>
                                 </tr>
                                  <tr>
                                      <td>Solution Week 3</td>
