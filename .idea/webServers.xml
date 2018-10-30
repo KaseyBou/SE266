@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="86948df4-ccea-4b72-8205-d4a8b30f8e35" name="http://192.168.10.10/" url="http://192.168.10.10/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="77baf252-a893-444e-95e5-154423a06a2f" name="school" url="http://192.168.10.10/">
+        <fileTransfer host="http://192.168.10.10" port="2222">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

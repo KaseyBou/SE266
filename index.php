@@ -12,6 +12,7 @@
     <body>
         <style>
             body {background-color: #F3FFFE;}
+     
         </style>
         <!-- page header -->
         <div class="container">
@@ -35,16 +36,16 @@
                             </thead>
                              <tbody>
                                 <tr>
-                                     <td>Solution Week 1</td>
-                                     <td><a href="week1.zip" target="_blank">zip file week 1</a></td>
+                                     <td><a href="week1/creditcard.php">Solution week 1</a></td>
+                                     <td><a href="week1/week1.zip" target="blank_">zip file week 1</a></td>
                                 </tr>
                                  <tr>
-                                     <td>Solution Week 2</td>
-                                     <td><a href="week2.zip">zip file week 2</a></td>
+                                     <td><a href="week2/Actors/pageheader.php">Solution week 2</a></td>
+                                     <td><a href="week2/week2.zip">zip file week 2</a></td>
                                 </tr>
                                  <tr>
-                                     <td>Solution Week 3</td>
-                                     <td><a href="#">zip file week 3</a></td>
+                                     <td><a href="week3/view.php">Solution week 3</a></td>
+                                     <td><a href="week3/week3.zip">zip file week 3</a></td>
                                 </tr>
                                  <tr>
                                      <td>Solution Week 4</td>
@@ -109,6 +110,7 @@
                     $mod_date=date("F d Y h:i:s A", filemtime($file));
 
                     echo "Last modified $mod_date";
+
                 ?>
                 </div>
             </div>

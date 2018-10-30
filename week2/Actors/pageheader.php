@@ -24,13 +24,13 @@
           <div class="panel panel-info">
             <div class="panel-heading">Add Actors</div>
                 <div class="panel-body">
-                    <li><a href="http://192.168.10.10/week2/Actors/add.php">page add actors</a></li>
+                    <li><a href="add.php">page add actors</a></li>
                 </div>
           </div>
           <div class="panel panel-info">
             <div class="panel-heading">View Actors</div>
                 <div class="panel-body">
-                    <li><a href="http://192.168.10.10/week2/Actors/view.php">page view actors</a></li>
+                    <li><a href="view.php">page view actors</a></li>
                 </div>
           </div>
       </div>
