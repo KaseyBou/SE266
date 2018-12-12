@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
  <?php
     session_start();
  ?>
+=======
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
 <html lang="en">
   <head>
     <meta charset="utf-8"> 
@@ -9,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
+<<<<<<< HEAD
       <?php
       
         include './dbconnect.php';
@@ -90,6 +94,10 @@
                   </tbody>
               </table>
           </div>
+=======
+      <div class ="container">
+          <h1>Welcome!</h1>
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
       </div>
   </body>
 </html>

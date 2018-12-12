@@ -29,9 +29,20 @@
                 ":owner" => $owner,
                 ":phone" => $phone
             );
+<<<<<<< HEAD
 
             if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
                 $results = 'Data Added';
+=======
+            
+            /*
+             * empty()
+             * isset()
+             */
+            if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
+                $results = 'Data Added';
+                
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
             }
         }
         ?>

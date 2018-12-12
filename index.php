@@ -12,6 +12,10 @@
     <body>
         <style>
             body {background-color: #F3FFFE;}
+<<<<<<< HEAD
+=======
+     
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
         </style>
         <!-- page header -->
         <div class="container">
@@ -51,28 +55,47 @@
                                      <td><a href="#">zip file week 4</a></td>
                                 </tr>
                                  <tr>
+<<<<<<< HEAD
                                      <td><a href="week5/login.php">Solution Week 5</a></td>
                                      <td><a href="week5/week5.zip">zip file week 5</a></td>
                                 </tr>
                                  <tr>
                                      <td><a href=week6/index.php>Solution Week 6</a></td>
                                      <td><a href="week6/week6.zip">zip file week 6</a></td>
+=======
+                                     <td>Solution Week 5</td>
+                                     <td><a href="#">zip file week 5</a></td>
+                                </tr>
+                                 <tr>
+                                     <td>Solution Week 6</td>
+                                     <td><a href="#">zip file week 6</a></td>
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
                                 </tr>
                                  <tr>
                                      <td>Solution Week 7</td>
                                      <td><a href="#">zip file week 7</a></td>
                                 </tr>
                                  <tr>
+<<<<<<< HEAD
                                      <td><a href=week8/index.php></a>Solution Week 8</td>
                                      <td><a href="week8/week8.zip">zip file week 8</a></td>
+=======
+                                     <td>Solution Week 8</td>
+                                     <td><a href="#">zip file week 8</a></td>
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
                                 </tr>
                                  <tr>
                                      <td>Solution Week 9</td>
                                      <td><a href="#">zip file week 9</a></td>
                                 </tr>
                                  <tr>
+<<<<<<< HEAD
                                      <td><a href=Final/index.php>Solution Week 10</a></td>
                                      <td><a href="Final/Final.zip">zip file week 10</a></td>
+=======
+                                     <td>Solution Week 10</td>
+                                     <td><a href="#">zip file week 10</a></td>
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
                                 </tr> 
                              </tbody>
                             </table>
@@ -109,6 +132,10 @@
                     $mod_date=date("F d Y h:i:s A", filemtime($file));
 
                     echo "Last modified $mod_date";
+<<<<<<< HEAD
+=======
+
+>>>>>>> f114e43eb1c627b9eaf479b57925abecda921f59
                 ?>
                 </div>
             </div>
