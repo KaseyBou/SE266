@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test button number</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <input type="button" data-index-number="1" value="1">
+        <input type="button" data-index-number="2" value="2">
+        <input type="button" data-index-number="3" value="3">
+        <script>
+            let index = document.querySelectorAll('data-index-number');
+            index.addEventListener("click", e = (e) => { 
+                console.log(index);
+                
+                return e;
+            });
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Age</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        Age: <input type="text">
+        <input type="button" id="displayAge" value="display age">
+        <script>
+    
+        fetch('age.php').then(response => {
+            return response.json();
+        }).then(data => {
+        
+        document.getElementById('displayAge').addEventListener("click", function(e) {
+              let age = document.getElementById('age').value;
+              alert(age);
+          });
+          
+         console.log(data);
+             
+        }).catch(err => {
+            alert("error")
+        });
+        
+        </script>
+    </body>
+</html>

@@ -56,7 +56,7 @@
                
                 $corp = $results['corp'];
                 $incorp_dt = $results['incorp_dt'];
-                 $zipcode = $results['zipcode'];
+                $zipcode = $results['zipcode'];
                 $email = $results['email']; 
                 $owner = $results['owner'];
                 $phone = $results['phone'];
